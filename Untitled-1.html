@@ -1,0 +1,25 @@
+<html>
+<body>
+
+<p id="W"></p>
+<center>
+    <label for="Type a word"></label>
+    <input type="text" id="word">
+    <button> compare </button>
+</center>
+<script src="word.txt"></script>
+<script>
+    function wordcompare() {
+        var typed = document.getElementById("word").value;
+        var words = wordList.indexOf(typed);
+        if (words >=0)
+            alert("Correct Word")
+        else
+            alert("Incorrect word")
+            
+    }
+    document.querySelector("button").addEventListener("click", wordcompare);
+</script>
+
+</body>
+</html>

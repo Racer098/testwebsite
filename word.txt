@@ -1,0 +1,1 @@
+var wordList = ["eviniser@gmail.com", "eviniser1@gmail.com"];
